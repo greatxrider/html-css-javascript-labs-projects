@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.navbarwithlogo {
+  display: grid;
+  grid-template-columns: 0.6fr 6fr;
+  grid-template-rows: 1fr;
+  height: 20vh;
+}
+
+.logo {
+  background-color: #2965bb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 7.5rem;
+  min-height: 7rem;
+}
+
+.jmd {
+  color: white;
+  font-size: 3rem;
+}
+
+.navcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: gray;
+  display: flex;
+  position: relative;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  height: 5vh;
+  min-width: 1rem;
+  min-height: 2rem;
+}
+
+.navbar-items {
+  display: flex;
+  color: white;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.Home {
+  display: grid;
+  grid-template-columns: 5fr 5fr 2fr;
+  grid-template-rows: 1fr;
+  height: 80vh;
+}
+
+.Introduction {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  color: #6b6b70;
+  position: relative;
+  bottom: 3rem;
+  left: 1.4rem;
+}
+
+.salutation {
+  font-size: 31px;
+}
+
+.content {
+  font-size: 25px;
+}
+
+.name,
+.period {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.period {
+  color: #2965bb;
+}
+
+.Jephmari {
+  grid-area: 1/2/1/2;
+  height: 70vh;
+  z-index: 1;
+}
+
+.circle {
+  position: relative;
+  top: 3.2rem;
+  left: 5rem;
+  background-color: #6b6b70;
+  height: 60vh;
+  grid-area: 1/2/1/2;
+}
