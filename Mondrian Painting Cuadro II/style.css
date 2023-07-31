@@ -1,0 +1,118 @@
+.Container {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 60px 966px;
+}
+
+.nestedcontainer {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 966px;
+  grid-template-rows: 650px;
+}
+
+.subcontainer1 {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 593px 373px;
+  grid-template-rows: 650px 431px;
+}
+
+.subcontainer2 {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 368px 569px;
+  grid-template-rows: 474px 87px;
+  padding-bottom: 25px;
+}
+
+.red {
+  background-color: #d52e26;
+}
+.gray {
+  background-color: #d8d1b7;
+}
+
+.blue {
+  background-color: #367fb2;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: #f2cb48;
+}
+
+.block1 {
+  background-color: black;
+  width: 543px;
+  display: grid;
+  gap: 25px;
+  padding: 25px;
+  grid-template-columns: 343px 175px;
+  grid-template-rows: 167px 408px;
+}
+
+.block2 {
+  background-color: black;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 348px;
+  grid-template-rows: 73px 333px;
+}
+
+.block3 {
+  background-color: black;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 260px 63px;
+  grid-template-rows: 172px;
+  margin-top: -25px;
+  padding-top: 25px;
+}
+
+.block4 {
+  background-color: black;
+  display: grid;
+  gap: 25px;
+  padding-left: 25px;
+  grid-template-columns: 343px;
+  grid-template-rows: 56px 368px;
+}
+
+.block5 {
+  background-color: black;
+  display: grid;
+  gap: 25px;
+  padding: 25px;
+  padding-top: 0px;
+
+  grid-template-columns: 175px 260px 59px;
+  grid-template-rows: 246px;
+}
+
+.block6 {
+  background-color: black;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 306px 125px 63px;
+  grid-template-rows: 178px;
+}
+
+.block7 {
+  background-color: black;
+  display: grid;
+  gap: 25px;
+  padding-left: 25px;
+  grid-template-columns: 674px 213px;
+}
+
+.block8 {
+  background-color: black;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 60px;
+  grid-template-rows: 192px 882px 86px;
+}
